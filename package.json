@@ -1,0 +1,28 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "Software of Development with Nodejs,Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "JWT",
+    "MongoDB"
+  ],
+  "author": "Daniel Alejo Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
